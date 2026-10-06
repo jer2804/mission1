@@ -94,7 +94,7 @@ section {
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
-    animation: cardAppear 1s ease;
+    animation: cardAppear 1.5s ease;
 }
 
 .card img {
@@ -181,7 +181,7 @@ footer {
 @keyframes cardAppear {
     from {
         opacity: 0;
-        transform: translateY(50px);
+        transform: translateY(70px);
     }
 
     to {
